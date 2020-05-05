@@ -1,14 +1,14 @@
 {
   "builds": {},
   "reproductionBuggyBuild": {
-    "reproductionDateBeginning": "Feb 16, 2020 6:26:44 PM",
-    "reproductionDateEnd": "Feb 16, 2020 6:27:55 PM",
+    "reproductionDateBeginning": "May 5, 2020 3:20:21 PM",
+    "reproductionDateEnd": "May 5, 2020 3:21:15 PM",
     "machineInfo": {
       "numberCPU": 1,
-      "freeMemory": 27557576,
-      "totalMemory": 76279808
+      "freeMemory": 26317848,
+      "totalMemory": 89108480
     },
-    "totalDuration": 68,
+    "totalDuration": 52,
     "processDurations": {
       "cloning": {
         "nbSteps": 0,
@@ -38,16 +38,16 @@
       },
       "fixing": {
         "nbSteps": 1,
-        "totalDuration": 17,
+        "totalDuration": 14,
         "stepNames": [
           "AstorJKali"
         ],
         "stepDurations": [
-          17
+          14
         ]
       }
     },
-    "projectRootPomPath": "/scratch/dginelli/workspace/repairnator-repairnator-experiments-rlemaigre-JMiniORM-347294993-20180228-153207-firstCommit/pom.xml"
+    "projectRootPomPath": "/scratch/dginelli/workspace/dginelli-test-junit-fix-pom/pom.xml"
   },
   "repository": {
     "githubId": 0,
@@ -73,17 +73,17 @@
   },
   "commits": {},
   "tests": {
-    "failingModule": "/scratch/dginelli/workspace/repairnator-repairnator-experiments-rlemaigre-JMiniORM-347294993-20180228-153207-firstCommit",
+    "failingModule": "/scratch/dginelli/workspace/dginelli-test-junit-fix-pom",
     "overallMetrics": {
       "numberRunning": 2,
       "numberPassing": 1,
-      "numberFailing": 1,
-      "numberErroring": 0,
+      "numberFailing": 0,
+      "numberErroring": 1,
       "numberSkipping": 0,
       "failures": [
         {
           "failureName": "java.lang.NullPointerException",
-          "isError": false,
+          "isError": true,
           "occurrences": 1
         }
       ]
@@ -93,17 +93,17 @@
         "testClass": "org.jminiorm.TestQueries",
         "numberRunning": 1,
         "numberPassing": 0,
-        "numberFailing": 1,
-        "numberErroring": 0,
+        "numberFailing": 0,
+        "numberErroring": 1,
         "numberSkipping": 0
       }
     ],
     "failureDetails": [
       {
         "testClass": "org.jminiorm.TestQueries",
-        "testMethod": "org.jminiorm.TestQueries.testQueries",
+        "testMethod": "testQueries",
         "failureName": "java.lang.NullPointerException",
-        "isError": false
+        "isError": true
       }
     ]
   },
