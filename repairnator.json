@@ -1,31 +1,118 @@
 {
-  "totalNumberSkippingTests": 0,
-  "bugType": "only_fail",
-  "totalNumberErroringTests": 0,
-  "repo": "rlemaigre/JMiniORM",
-  "bugCommit": "https://github.com/rlemaigre/JMiniORM/compare/8227a251de13...36a3077920a6",
-  "failingModule": "/root/workspace/rlemaigre/JMiniORM/347294993",
-  "hostname": "spirals-vortex.lille.inria.fr",
-  "totalNumberFailingTests": 1,
-  "error-types": [
-    "java.lang.NullPointerException"
-  ],
-  "totalNumberRunningTests": 2,
-  "failing-test-cases": [
-    {
-      "className": "org.jminiorm.TestQueries",
-      "failingMethods": [
-        "org.jminiorm.TestQueries#org.jminiorm.TestQueries.testQueries"
-      ],
-      "erroringMethods": [],
+  "builds": {},
+  "reproductionBuggyBuild": {
+    "reproductionDateBeginning": "May 5, 2020 2:50:16 PM",
+    "reproductionDateEnd": "May 5, 2020 2:51:08 PM",
+    "machineInfo": {
+      "numberCPU": 1,
+      "freeMemory": 37463488,
+      "totalMemory": 101392384
+    },
+    "totalDuration": 50,
+    "processDurations": {
+      "cloning": {
+        "nbSteps": 0,
+        "totalDuration": 0,
+        "stepNames": [],
+        "stepDurations": []
+      },
+      "building": {
+        "nbSteps": 3,
+        "totalDuration": 0,
+        "stepNames": [
+          "ComputeSourceDir",
+          "ComputeTestDir",
+          "CheckoutPatchedBuild"
+        ],
+        "stepDurations": [
+          0,
+          0,
+          0
+        ]
+      },
+      "testing": {
+        "nbSteps": 0,
+        "totalDuration": 0,
+        "stepNames": [],
+        "stepDurations": []
+      },
+      "fixing": {
+        "nbSteps": 1,
+        "totalDuration": 14,
+        "stepNames": [
+          "AstorJKali"
+        ],
+        "stepDurations": [
+          14
+        ]
+      }
+    },
+    "projectRootPomPath": "/scratch/dginelli/workspace/dginelli-test-junit-repairnator-repairnator-experiments-rlemaigre-JMiniORM-347294993-20180228-153207-firstCommit-firstCommit/pom.xml"
+  },
+  "repository": {
+    "githubId": 0,
+    "isFork": false,
+    "original": {
+      "name": "",
+      "githubId": 0,
+      "url": ""
+    },
+    "isPullRequest": false,
+    "pullRequestId": 0
+  },
+  "patchDiff": {
+    "files": {
+      "numberAdded": 0,
+      "numberChanged": 0,
+      "numberDeleted": 0
+    },
+    "lines": {
+      "numberAdded": 0,
+      "numberDeleted": 0
+    }
+  },
+  "commits": {},
+  "tests": {
+    "failingModule": "/scratch/dginelli/workspace/dginelli-test-junit-repairnator-repairnator-experiments-rlemaigre-JMiniORM-347294993-20180228-153207-firstCommit-firstCommit",
+    "overallMetrics": {
+      "numberRunning": 2,
+      "numberPassing": 1,
+      "numberFailing": 1,
+      "numberErroring": 0,
+      "numberSkipping": 0,
       "failures": [
         {
           "failureName": "java.lang.NullPointerException",
-          "isError": false
+          "isError": false,
+          "occurrences": 1
         }
-      ],
-      "nbFailures": 1,
-      "nbErrors": 0
-    }
-  ]
+      ]
+    },
+    "failingClasses": [
+      {
+        "testClass": "org.jminiorm.TestQueries",
+        "numberRunning": 1,
+        "numberPassing": 0,
+        "numberFailing": 1,
+        "numberErroring": 0,
+        "numberSkipping": 0
+      }
+    ],
+    "failureDetails": [
+      {
+        "testClass": "org.jminiorm.TestQueries",
+        "testMethod": "org.jminiorm.TestQueries.testQueries",
+        "failureName": "java.lang.NullPointerException",
+        "isError": false
+      }
+    ]
+  },
+  "projectMetrics": {
+    "numberModules": 1,
+    "numberPlugins": 0,
+    "numberSourceFiles": 64,
+    "numberTestFiles": 5,
+    "numberLibrariesFailingModule": 14,
+    "numberLines": 0
+  }
 }
